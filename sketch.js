@@ -29,7 +29,10 @@ var moveawayframes1 = 0;
 var move = 0;
 var frames = 0;
 var lk = 0;
-
+function mousePressed() {
+    let fs = fullscreen();
+    fullscreen(!fs);
+}
 function setup() {
   createCanvas(800, 800);
 }
